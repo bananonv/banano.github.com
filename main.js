@@ -154,7 +154,7 @@ function createNetwork() {
     };
     network = new vis.Network(container, data, options);
     network.on("selectNode",function(params) {
-        window.open('https://mynano.ninja/account/'+params.nodes[0], '_blank');
+        window.open('https://creeper.banano.cc/explorer/account/'+params.nodes[0], '_blank');
     });
 }
 
