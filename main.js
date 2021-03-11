@@ -124,7 +124,7 @@ function new_websocket(url, ready_callback, message_callback) {
 }
 
 function subscribe() {
-    new_websocket('wss://ws.gambinode.com', function(socket) {
+    new_websocket('wss://bws.gambinode.com', function(socket) {
         // onopen
         let params = {
             action: 'subscribe',
